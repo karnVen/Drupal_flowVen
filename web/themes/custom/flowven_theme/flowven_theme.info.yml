@@ -1,0 +1,26 @@
+name: flowven_theme
+type: theme
+'base theme': stable9
+version: 1.0.0
+libraries:
+  - flowven_theme/base
+  - flowven_theme/messages
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - flowven_theme/user
+  core/drupal.dropbutton:
+    - flowven_theme/dropbutton
+  core/drupal.dialog:
+    - flowven_theme/dialog
+  file/drupal.file:
+    - flowven_theme/file
+  core/drupal.item-list:
+    - flowven_theme/item-list
+  core/drupal.progress:
+    - flowven_theme/progress
+  core/drupal.tablesort:
+    - flowven_theme/drupal.tablesort
+description: ''
+core_version_requirement: ^11
+generator: 'starterkit_theme:11.3.11'
